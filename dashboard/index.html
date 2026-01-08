@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard de supervision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🖥️ Dashboard de supervision</h1>
+</header>
+
+<main>
+    <section>
+    <h2>Agents</h2>
+    <div id="agents" class="grid"></div>
+</section>
+
+<section>
+    <h2>Graphique CPU (temps réel)</h2>
+    <canvas id="cpuChart" width="800" height="300"></canvas>
+</section>
+
+<section>
+    <h2>Alertes critiques</h2>
+    <ul id="alerts"></ul>
+</section>
+
+
+    <section>
+        <h2>Alertes critiques</h2>
+        <ul id="alerts"></ul>
+    </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

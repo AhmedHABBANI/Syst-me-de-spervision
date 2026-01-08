@@ -1,0 +1,7 @@
+\Java project\server\src> java server.ServerMain
+
+\Java project\agent\src> java agent.AgentUdpTest
+>> java agent.AgentAlertTest
+
+C:\Users\ahmed\Desktop\Java project\desktop\src> javac desktop/*.java
+>> java desktop.DashboardFrame
