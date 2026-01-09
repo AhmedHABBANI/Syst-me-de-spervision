@@ -1,9 +1,1 @@
-How to use !
 
-1. \Java project\server\src> java server.ServerMain
- 
- 2. \Java project\agent\src> java agent.AgentUdpTest
-    >> java agent.AgentAlertTest
-
-3. C:\Users\ahmed\Desktop\Java project\desktop\src> javac desktop/*.java
-    >> java desktop.DashboardFrame
