@@ -20,8 +20,8 @@ public class DashboardFrame extends JFrame {
     private String currentAgent = "agent-1";
 
     // ===== COEFFICIENTS VISUELS =====
-    private static final double CPU_GAIN = 20.0;
-    private static final double RAM_GAIN = 18.0;
+    private static final double CPU_GAIN = 1.0;
+    private static final double RAM_GAIN = 1.0;
 
     // ===== PALETTE DE COULEURS PROFESSIONNELLE =====
     private static final Color BG_PRIMARY = new Color(15, 23, 42);
